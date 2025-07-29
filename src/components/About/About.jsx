@@ -40,19 +40,34 @@ const About = () => {
             Final-year B.Tech IT student with strong skills in full-stack web development (MERN stack). Experienced in building responsive, user-friendly apps. Passionate about clean code, teamwork, and solving real-world problems. Eager to grow as a software developer.
           </p>
 
-          {/* Resume Button */}
-          <a
-            href="https://drive.google.com/file/d/1-NVF3Brjd4hMoqDRqv76qdXEbhCziiiU/view?usp=drivesdk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
-            style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
-            }}
-          >
-            DOWNLOAD CV
-          </a>
+          {/* Buttons Row */}
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-5">
+            <a
+              href="https://drive.google.com/file/d/1-NVF3Brjd4hMoqDRqv76qdXEbhCziiiU/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105 overflow-hidden z-10 group"
+              style={{
+                background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+                boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              }}
+            >
+              <span className="relative z-10">DOWNLOAD CV</span>
+              <span className="absolute top-0 left-0 w-full h-full bg-[#8245ec] opacity-0 group-hover:opacity-20 transition-opacity duration-300 z-0 rounded-full"></span>
+            </a>
+
+            <a
+              href="#contact"
+              className="relative inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105 overflow-hidden z-10 group"
+              style={{
+                background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+                boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              }}
+            >
+              <span className="relative z-10">HIRE ME</span>
+              <span className="absolute top-0 left-0 w-full h-full bg-[#8245ec] opacity-0 group-hover:opacity-20 transition-opacity duration-300 z-0 rounded-full"></span>
+            </a>
+          </div>
         </div>
 
         {/* Right Side */}
