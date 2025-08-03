@@ -132,7 +132,7 @@ import passwordgnrtr from './assets/work_logo/password.png'
         "UpSkillr is an interactive EdTech platform built using HTML, Tailwind CSS, and React.js. It offers a clean and responsive user interface for showcasing educational content and enhancing the learning experience. The project focuses on simplicity, speed, and modern design to provide a smooth user journey for students and educators.",
       image: Upskillr,
       tags: ["HTML", "TailwindCSS", "JavaScript", "React JS"],
-      github: "https://imsaurav12.github.io/UpSkillr--An-Edtech-Platform",
+      github: "https://imsaurav12.github.io/UpSkillr-An-Edtech-Platform/",
     },
     {
       id: 1,

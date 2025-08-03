@@ -43,7 +43,7 @@ const About = () => {
           {/* Buttons Row */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-5">
             <a
-              href="https://drive.google.com/file/d/1-NVF3Brjd4hMoqDRqv76qdXEbhCziiiU/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1EKlaZpe1Fa79nmO1eyJkqllUAihNA5st/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105 overflow-hidden z-10 group"
